@@ -1,1 +1,55 @@
+// Variable overrides first
+$primary: #7A44FF;
+$font-family-base: 'Love Ya Like A Sister', cursive;
+$display-font-sizes: (
+  1: 9rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+$font-size-base: 0.8rem;
+$position-values: (
+  0: 0,
+  10: 10%, 
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%
+);
+
+$border-radius: 0;
+
+
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+header {
+    background-image: url("../images/lidye-1Shk_PkNkNw-unsplash.jpg");
+    height: 35rem;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.logo {
+    margin: 0.5rem;
+}
+
+.main-sec2 {
+    height: fit-content;
+    padding-bottom: 1rem;
+    background-color: #7A44FF;
+}
+
+.main-sec3 {
+    width: 21rem;
+    margin: auto;
+}
+
+p, a, label, input, .btn {
+    font-family: Arial, Helvetica, sans-serif;
+}
